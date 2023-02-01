@@ -1,0 +1,147 @@
+.container-general-register{
+    display: flex;
+    flex-direction: column;
+}
+.container-dataServices {
+  /* width: 1000px; */
+  max-width: 1000px;
+
+  height: 110em;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 10em;
+  margin-bottom: 2em;
+}
+.title-ds {
+    border-bottom: 1px solid rgb(98, 109, 142);
+    margin-bottom: 1em;
+
+}
+.title-ds h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(98, 109, 142);
+}
+.name-category-ds {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  
+}
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px 0;
+}
+.titleEditorText {
+    font-weight: 700;
+}
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+.name-ds {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+}
+.category-ds {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.oqe-ds p{
+    /* font-weight: 700; */
+    margin: 10px 0;
+}
+.indi-ds, .norec-ds, .howservice-ds, .cuidados-ds p {
+    margin-top: 4em;
+}
+.whichIs {
+    margin: 1em 0;
+}
+
+.container-proced, .container-info {
+  /* width: 1000px; */
+  max-width: 1000px;
+  height: 15em;
+  max-height: 40em;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+.title-proced, .title-info {
+    border-bottom: 1px solid rgb(98, 109, 142);
+    margin-bottom: 1em;
+}
+
+.title-proced h1, .title-info h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(98, 109, 142);
+}
+
+
+.divProced {
+    display: flex;
+    align-items: center;
+    background-color: #2c3144;
+    font-weight: 600;
+    color: #fff;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    margin-right:4px;
+}
+.divProced p{
+    margin-right: 0.5em;
+}
+
+.iconX {
+    margin-top: 0.25em;
+    color: #fff;
+    cursor: pointer;
+
+}
+.iconX:hover {
+    color: rgb(205, 205, 205);
+}
+.listProced {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.selectProced select{
+    width: 20em;
+    
+}
+
+.inputs-info {
+    display: flex;
+    justify-content: space-between;
+}
+.label-input-info {
+    display: flex;
+    flex-direction: column;
+}
+#codeService {
+    width: 30em;
+}
